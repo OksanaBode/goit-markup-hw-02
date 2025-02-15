@@ -24,6 +24,8 @@
 
     body {
         background-color: rgb(var(--cl-white));
+        font-family: var(--main-font);
+        color: rgb(var(--cl-text));
         
 
         /* Reset + common style */
