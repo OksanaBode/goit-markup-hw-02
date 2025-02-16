@@ -1,6 +1,6 @@
 :root {
     /* Colors */
-    --cl-dark: 6 47 66;
+    --cl-dark: 46 47 66;
     --cl-brand: 77 90 229;
     --cl-pressedstate: 64 75 191;
     --cl-success: 49 208 170;
@@ -89,7 +89,9 @@
 /* #endregion */
 
 /* #region Hero */
-    .hero {background-color: rgb(var(--cl-dark));}
+    .hero {
+        background-color: rgb(var(--cl-dark));
+    }
 
     .hero-title {
         font-weight: 700;
@@ -107,8 +109,7 @@
         line-height: 1.5;
         font-weight: 500;}
 
-    .btn-primary:hover,
-    .btn-primary:focus{color: rgb(var(--cl-pressedstate));}
+    .btn-primary:hover,.btn-primary:focus {color: rgb(var(--cl-pressedstate));}
 
 
 /* #endregion */
