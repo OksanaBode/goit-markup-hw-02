@@ -14,15 +14,16 @@
     /* Percent */
     --p-primary: 70%;
     --p-secondary: 50%;
-    --p-tertiatry: 30%;
+    --p-tertiatry: 30%;}
 
-    .page {font-family: "Roboto", sans-serif;
+    body {font-family: "Roboto", sans-serif;
         font-size: 16px;
         letter-spacing: .32px;
         line-height: 1.5;
         font-weight: 500; 
         background-color: rgb(var(--cl-white));
         color: rgb(var(--cl-text));
+    }
         
 
         /* Reset + common style */
@@ -31,7 +32,7 @@
             font-style: normal;
             color: currentColor;
         }
-    }
+    
 
     button {
         font-family: "Roboto", sans-serif;;
