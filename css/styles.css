@@ -27,7 +27,7 @@
         
 
         /* Reset + common style */
-        a {
+     a {
             text-decoration: none;
             font-style: normal;
             color: currentColor;
@@ -109,7 +109,7 @@
         line-height: 1.5;
         font-weight: 500;}
 
-    .btn-primary:hover,.btn-primary:focus {color: rgb(var(--cl-pressedstate));}
+    .btn-primary:hover,.btn-primary:focus {background-color: rgb(var(--cl-pressedstate));}
 
 
 /* #endregion */
