@@ -1,8 +1,4 @@
 :root {
-    /* Fonts */
-    --main-font: 'Roboto', sans-serif;
-    --logo-font: 'Raleway', sans-serif;
-
     /* Colors */
     --cl-dark: 6 47 66;
     --cl-brand: 77 90 229;
@@ -15,16 +11,17 @@
     --cl-grey: 46 47 66;
     --cl-white: 255 255 255;
 
-
-
     /* Percent */
     --p-primary: 70%;
     --p-secondary: 50%;
     --p-tertiatry: 30%;
 
-    body {
+    body {font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        letter-spacing: .32px;
+        line-height: 1.5;
+        font-weight: 500; 
         background-color: rgb(var(--cl-white));
-        font-family: var(--main-font);
         color: rgb(var(--cl-text));
         
 
@@ -37,7 +34,7 @@
     }
 
     button {
-        font-family: var(--main-font);
+        font-family: "Roboto", sans-serif;;
         cursor: pointer;
     }
 
@@ -48,15 +45,16 @@
 
     .header-nav {}
 
-    .logo {font-family: var(--logo-font);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    .logo {font-family: "Raleway", sans-serif;
+        color: rgb(var(--cl-brand));
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
 }
 
-    .logo-accent {color: rgb(var(--cl-dark))}
+    .logo-accent {color: rgb(var(--cl-dark));}
 
     .header-menu {
  }
@@ -66,7 +64,10 @@
         line-height: 1.5;
         letter-spacing: 0.02em;}
 
-    .header-menu-link {}
+    .header-menu-link {font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        }
 
     .header-menu-link:hover,
     .header-menu-link:focus {color:rgb(var(--cl-pressedstate))}
@@ -81,8 +82,7 @@
         letter-spacing: 0.02em;
     color:rgb(var(--cl-text))}
 
-    .contacts-link:hover, 
-    .contacts-link:focus {color:rgb(var(--cl-pressedstate))}
+    .contacts-link:hover,.contacts-link:focus {color:rgb(var(--cl-pressedstate))}
     .contacts-link:active{color:rgb(var(--cl-pressedstate))}
 
 /* #endregion */
@@ -100,7 +100,7 @@
     }
 
     .btn-primary {background-color: rgb(var(--cl-brand));
-        font-family: var(--main-font);
+       font-size: 16px;
         color: rgb(var(--cl-white));
         letter-spacing: 0.04em;
         line-height: 1.5;
@@ -114,7 +114,7 @@
 /* #region Feature */
     .features {}
 
- .features-caption {font-size: 20px;
+ .features-caption {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -125,10 +125,13 @@
 
     .features-item {}
 
-    .features-desc {font-weight: 400;
+    .features-desc {
+        font-weight: 400;
         color: rgb(var(--cl-text));
         line-height: 1.5;
-        letter-spacing: 0.02em;}
+        letter-spacing: 0.02em;
+    }
+
 /* #endregion */
 /* #region Team */
     .team {background-color: rgb(var(--cl-light));}
@@ -187,7 +190,7 @@
     .footer {background-color: rgb(var(--cl-dark));
     }
 
-    .logo-footer {font-family: var(--logo-font);
+    .logo-footer {font-family: "Raleway", sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 18px;
