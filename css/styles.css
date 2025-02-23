@@ -38,7 +38,9 @@
         font-family: "Roboto", sans-serif;;
         cursor: pointer;
     }
-
+ul{
+    list-style: none;
+}
     /* #region heared */
     .header {
         background-color: rgb(var(--cl-accent));
